@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "colors": "^1.4.0",
+    "xpath": "^0.0.34"
+  }
+}

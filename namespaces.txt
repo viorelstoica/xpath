@@ -1,0 +1,13 @@
+xmlns="http://www.temenos.com/T24/event/AAAExtractor/BatchAAAFlow"
+xmlns:tns="http://www.temenos.com/T24/event/AAAExtractor/AAAFlow"
+xmlns:ns0="http://www.temenos.com/T24/event/Common/EventCommon" 
+xmlns:ns1="http://www.temenos.com/T24/AaActivityExtractorService/AaTransactionContext" 
+xmlns:ns2="http://www.temenos.com/T24/AaActivityExtractorService/AaArrengementRec" 
+xmlns:ns3="http://www.temenos.com/T24/AaActivityExtractorService/AaAccountDetailsRec" 
+xmlns:ns4="http://www.temenos.com/T24/AaActivityExtractorService/AaProductRec" 
+xmlns:ns5="http://www.temenos.com/T24/AaActivityExtractorService/AaArrInterestRec" 
+xmlns:ns6="http://www.temenos.com/T24/AaActivityExtractorService/AaArrActivityRec" 
+xmlns:ns8="http://www.temenos.com/T24/AaActivityExtractorService/AaArrAccountRec" 
+xmlns:ns9="http://www.temenos.com/T24/AaActivityExtractorService/AaArrSettlementRec" 
+xmlns:ns10="http://www.temenos.com/T24/AaActivityExtractorService/AaBillRec" 
+xmlns:ns11="http://www.temenos.com/T24/AaActivityExtractorService/AaIntAccrualRec">

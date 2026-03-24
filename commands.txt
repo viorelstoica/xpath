@@ -1,0 +1,3 @@
+https://www.npmjs.com/package/xpath
+node a "/d:BatchAAAFlow/tns:AAAFlow/tns:eventCommon/ns0:application/text()"
+
