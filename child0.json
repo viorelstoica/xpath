@@ -1,0 +1,390 @@
+{
+  ownerDocument: {
+    implementation: {},
+    childNodes: {
+      '0': [ProcessingInstruction],
+      '1': [Text],
+      '2': [Element],
+      '3': [Comment],
+      length: 4
+    },
+    doctype: null,
+    documentURI: undefined,
+    firstChild: ProcessingInstruction {
+      ownerDocument: [Circular *1],
+      target: 'xml',
+      nodeName: 'xml',
+      tagName: 'xml',
+      data: 'version="1.0" encoding="UTF-8"',
+      nodeValue: 'version="1.0" encoding="UTF-8"',
+      lineNumber: 1,
+      columnNumber: 1,
+      previousSibling: null,
+      nextSibling: [Text],
+      parentNode: [Circular *1]
+    },
+    lastChild: Comment {
+      ownerDocument: [Circular *1],
+      data: ' Stylus Studio meta-information - (c) 2004-2009. Progress Software Corporation. All rights reserved.\n' +
+        '\n' +
+        '<metaInformation>\n' +
+        '\t<scenarios>\n' +
+        '\t\t<scenario default="yes" name="Scenario1" userelativepaths="yes" externalpreview="no" url="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter.xml" htmlbaseurl="" outputurl="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter_Pavan.xml" processortype="saxon8"\n' +
+        '\t\t          useresolver="no" profilemode="0" profiledepth="" profilelength="" urlprofilexml="" commandline="" additionalpath="" additionalclasspath="" postprocessortype="none" postprocesscommandline="" postprocessadditionalpath=""\n' +
+        '\t\t          postprocessgeneratedext="" validateoutput="no" validator="internal" customvalidator="">\n' +
+        '\t\t\t<advancedProp name="sInitialMode" value=""/>\n' +
+        '\t\t\t<advancedProp name="schemaCache" value="||"/>\n' +
+        '\t\t\t<advancedProp name="bXsltOneIsOkay" value="true"/>\n' +
+        '\t\t\t<advancedProp name="bSchemaAware" value="false"/>\n' +
+        '\t\t\t<advancedProp name="bGenerateByteCode" value="false"/>\n' +
+        '\t\t\t<advancedProp name="bXml11" value="false"/>\n' +
+        '\t\t\t<advancedProp name="iValidation" value="0"/>\n' +
+        '\t\t\t<advancedProp name="bExtensions" value="true"/>\n' +
+        '\t\t\t<advancedProp name="iWhitespace" value="0"/>\n' +
+        '\t\t\t<advancedProp name="sInitialTemplate" value=""/>\n' +
+        '\t\t\t<advancedProp name="bTinyTree" value="true"/>\n' +
+        '\t\t\t<advancedProp name="xsltVersion" value="2.0"/>\n' +
+        '\t\t\t<advancedProp name="bWarnings" value="true"/>\n' +
+        '\t\t\t<advancedProp name="bUseDTD" value="false"/>\n' +
+        '\t\t\t<advancedProp name="iErrorHandling" value="fatal"/>\n' +
+        '\t\t</scenario>\n' +
+        '\t</scenarios>\n' +
+        '\t<MapperMetaTag>\n' +
+        '\t\t<MapperInfo srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="" destSchemaRoot="" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no">\n' +
+        '\t\t\t<SourceSchema srcSchemaPath="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter.xml" srcSchemaRoot="AAAFlow" AssociatedInstance="" loaderFunction="document" loaderFunctionUsesURI="no"/>\n' +
+        '\t\t</MapperInfo>\n' +
+        '\t\t<MapperBlockPosition>\n' +
+        '\t\t\t<template match="/"></template>\n' +
+        '\t\t\t<template name="mappingFinancialInstrumentAADepositAndLoan"></template>\n' +
+        '\t\t</MapperBlockPosition>\n' +
+        '\t\t<TemplateContext></TemplateContext>\n' +
+        '\t\t<MapperFilter side="source"></MapperFilter>\n' +
+        '\t</MapperMetaTag>\n' +
+        '</metaInformation>\n',
+      nodeValue: ' Stylus Studio meta-information - (c) 2004-2009. Progress Software Corporation. All rights reserved.\n' +
+        '\n' +
+        '<metaInformation>\n' +
+        '\t<scenarios>\n' +
+        '\t\t<scenario default="yes" name="Scenario1" userelativepaths="yes" externalpreview="no" url="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter.xml" htmlbaseurl="" outputurl="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter_Pavan.xml" processortype="saxon8"\n' +
+        '\t\t          useresolver="no" profilemode="0" profiledepth="" profilelength="" urlprofilexml="" commandline="" additionalpath="" additionalclasspath="" postprocessortype="none" postprocesscommandline="" postprocessadditionalpath=""\n' +
+        '\t\t          postprocessgeneratedext="" validateoutput="no" validator="internal" customvalidator="">\n' +
+        '\t\t\t<advancedProp name="sInitialMode" value=""/>\n' +
+        '\t\t\t<advancedProp name="schemaCache" value="||"/>\n' +
+        '\t\t\t<advancedProp name="bXsltOneIsOkay" value="true"/>\n' +
+        '\t\t\t<advancedProp name="bSchemaAware" value="false"/>\n' +
+        '\t\t\t<advancedProp name="bGenerateByteCode" value="false"/>\n' +
+        '\t\t\t<advancedProp name="bXml11" value="false"/>\n' +
+        '\t\t\t<advancedProp name="iValidation" value="0"/>\n' +
+        '\t\t\t<advancedProp name="bExtensions" value="true"/>\n' +
+        '\t\t\t<advancedProp name="iWhitespace" value="0"/>\n' +
+        '\t\t\t<advancedProp name="sInitialTemplate" value=""/>\n' +
+        '\t\t\t<advancedProp name="bTinyTree" value="true"/>\n' +
+        '\t\t\t<advancedProp name="xsltVersion" value="2.0"/>\n' +
+        '\t\t\t<advancedProp name="bWarnings" value="true"/>\n' +
+        '\t\t\t<advancedProp name="bUseDTD" value="false"/>\n' +
+        '\t\t\t<advancedProp name="iErrorHandling" value="fatal"/>\n' +
+        '\t\t</scenario>\n' +
+        '\t</scenarios>\n' +
+        '\t<MapperMetaTag>\n' +
+        '\t\t<MapperInfo srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="" destSchemaRoot="" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no">\n' +
+        '\t\t\t<SourceSchema srcSchemaPath="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter.xml" srcSchemaRoot="AAAFlow" AssociatedInstance="" loaderFunction="document" loaderFunctionUsesURI="no"/>\n' +
+        '\t\t</MapperInfo>\n' +
+        '\t\t<MapperBlockPosition>\n' +
+        '\t\t\t<template match="/"></template>\n' +
+        '\t\t\t<template name="mappingFinancialInstrumentAADepositAndLoan"></template>\n' +
+        '\t\t</MapperBlockPosition>\n' +
+        '\t\t<TemplateContext></TemplateContext>\n' +
+        '\t\t<MapperFilter side="source"></MapperFilter>\n' +
+        '\t</MapperMetaTag>\n' +
+        '</metaInformation>\n',
+      length: 2162,
+      lineNumber: 42,
+      columnNumber: 18,
+      previousSibling: [Element],
+      nextSibling: null,
+      parentNode: [Circular *1]
+    },
+    _inc: 106,
+    documentElement: Element {
+      _nsMap: [Object],
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Circular *1],
+      nodeName: 'xsl:stylesheet',
+      tagName: 'xsl:stylesheet',
+      namespaceURI: 'http://www.w3.org/1999/XSL/Transform',
+      prefix: 'xsl',
+      localName: 'stylesheet',
+      previousSibling: [Text],
+      nextSibling: [Comment],
+      parentNode: [Circular *1],
+      lineNumber: 2,
+      columnNumber: 1,
+      firstChild: [Circular *2],
+      lastChild: [Text]
+    }
+  },
+  data: '\n\t',
+  nodeValue: '\n\t',
+  length: 2,
+  parentNode: <ref *3> Element {
+    _nsMap: {
+      xsl: 'http://www.w3.org/1999/XSL/Transform',
+      '': 'http://www.odcgroup.com/FiPMS',
+      infra: 'http://www.odcgroup.com/InfraPMS',
+      a: 'http://www.temenos.com/T24/AaActivityExtractorService/AaArrInterestRec',
+      b: 'http://www.temenos.com/T24/AaActivityExtractorService/AaTransactionContext',
+      c: 'http://www.temenos.com/T24/event/AAAExtractor/AAAFlow',
+      d: 'http://www.temenos.com/T24/AaActivityExtractorService/AaArrActivityRec',
+      e: 'http://www.temenos.com/T24/AaActivityExtractorService/AaProductRec',
+      f: 'http://www.temenos.com/T24/AaActivityExtractorService/AaAccountDetailsRec',
+      g: 'http://www.temenos.com/T24/AaActivityExtractorService/AaArrAccountRec',
+      h: 'http://www.temenos.com/T24/AaActivityExtractorService/AaArrSettlementRec',
+      i: 'http://www.temenos.com/T24/AaActivityExtractorService/AaArrengementRec',
+      j: 'http://www.temenos.com/T24/AaActivityExtractorService/AaBillRec',
+      k: 'http://www.temenos.com/T24/AaActivityExtractorService/AaIntAccrualRec',
+      l: 'http://www.temenos.com/T24/AaActivityExtractorService/AaFtRecord'
+    },
+    attributes: {
+      '0': [Attr],
+      '1': [Attr],
+      '2': [Attr],
+      '3': [Attr],
+      '4': [Attr],
+      '5': [Attr],
+      '6': [Attr],
+      '7': [Attr],
+      '8': [Attr],
+      '9': [Attr],
+      '10': [Attr],
+      '11': [Attr],
+      '12': [Attr],
+      '13': [Attr],
+      '14': [Attr],
+      '15': [Attr],
+      '16': [Attr],
+      _ownerElement: [Circular *3],
+      length: 17
+    },
+    childNodes: {
+      '0': [Circular *2],
+      '1': [Comment],
+      '2': [Text],
+      '3': [Comment],
+      '4': [Text],
+      '5': [Element],
+      '6': [Text],
+      '7': [Comment],
+      '8': [Text],
+      '9': [Comment],
+      '10': [Text],
+      '11': [Element],
+      '12': [Text],
+      '13': [Comment],
+      '14': [Text],
+      '15': [Element],
+      '16': [Text],
+      '17': [Comment],
+      '18': [Text],
+      '19': [Element],
+      '20': [Text],
+      '21': [Comment],
+      '22': [Text],
+      '23': [Element],
+      '24': [Text],
+      '25': [Comment],
+      '26': [Text],
+      '27': [Element],
+      '28': [Text],
+      '29': [Comment],
+      '30': [Text],
+      '31': [Element],
+      '32': [Text],
+      length: 33
+    },
+    ownerDocument: <ref *1> Document {
+      ownerDocument: [Circular *1],
+      implementation: {},
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [ProcessingInstruction],
+      lastChild: [Comment],
+      _inc: 106,
+      documentElement: [Circular *3]
+    },
+    nodeName: 'xsl:stylesheet',
+    tagName: 'xsl:stylesheet',
+    namespaceURI: 'http://www.w3.org/1999/XSL/Transform',
+    prefix: 'xsl',
+    localName: 'stylesheet',
+    previousSibling: Text {
+      ownerDocument: [Document],
+      data: '\n',
+      nodeValue: '\n',
+      length: 1,
+      previousSibling: [ProcessingInstruction],
+      nextSibling: [Circular *3],
+      parentNode: [Document],
+      lineNumber: 1,
+      columnNumber: 39
+    },
+    nextSibling: Comment {
+      ownerDocument: [Document],
+      data: ' Stylus Studio meta-information - (c) 2004-2009. Progress Software Corporation. All rights reserved.\n' +
+        '\n' +
+        '<metaInformation>\n' +
+        '\t<scenarios>\n' +
+        '\t\t<scenario default="yes" name="Scenario1" userelativepaths="yes" externalpreview="no" url="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter.xml" htmlbaseurl="" outputurl="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter_Pavan.xml" processortype="saxon8"\n' +
+        '\t\t          useresolver="no" profilemode="0" profiledepth="" profilelength="" urlprofilexml="" commandline="" additionalpath="" additionalclasspath="" postprocessortype="none" postprocesscommandline="" postprocessadditionalpath=""\n' +
+        '\t\t          postprocessgeneratedext="" validateoutput="no" validator="internal" customvalidator="">\n' +
+        '\t\t\t<advancedProp name="sInitialMode" value=""/>\n' +
+        '\t\t\t<advancedProp name="schemaCache" value="||"/>\n' +
+        '\t\t\t<advancedProp name="bXsltOneIsOkay" value="true"/>\n' +
+        '\t\t\t<advancedProp name="bSchemaAware" value="false"/>\n' +
+        '\t\t\t<advancedProp name="bGenerateByteCode" value="false"/>\n' +
+        '\t\t\t<advancedProp name="bXml11" value="false"/>\n' +
+        '\t\t\t<advancedProp name="iValidation" value="0"/>\n' +
+        '\t\t\t<advancedProp name="bExtensions" value="true"/>\n' +
+        '\t\t\t<advancedProp name="iWhitespace" value="0"/>\n' +
+        '\t\t\t<advancedProp name="sInitialTemplate" value=""/>\n' +
+        '\t\t\t<advancedProp name="bTinyTree" value="true"/>\n' +
+        '\t\t\t<advancedProp name="xsltVersion" value="2.0"/>\n' +
+        '\t\t\t<advancedProp name="bWarnings" value="true"/>\n' +
+        '\t\t\t<advancedProp name="bUseDTD" value="false"/>\n' +
+        '\t\t\t<advancedProp name="iErrorHandling" value="fatal"/>\n' +
+        '\t\t</scenario>\n' +
+        '\t</scenarios>\n' +
+        '\t<MapperMetaTag>\n' +
+        '\t\t<MapperInfo srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="" destSchemaRoot="" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no">\n' +
+        '\t\t\t<SourceSchema srcSchemaPath="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter.xml" srcSchemaRoot="AAAFlow" AssociatedInstance="" loaderFunction="document" loaderFunctionUsesURI="no"/>\n' +
+        '\t\t</MapperInfo>\n' +
+        '\t\t<MapperBlockPosition>\n' +
+        '\t\t\t<template match="/"></template>\n' +
+        '\t\t\t<template name="mappingFinancialInstrumentAADepositAndLoan"></template>\n' +
+        '\t\t</MapperBlockPosition>\n' +
+        '\t\t<TemplateContext></TemplateContext>\n' +
+        '\t\t<MapperFilter side="source"></MapperFilter>\n' +
+        '\t</MapperMetaTag>\n' +
+        '</metaInformation>\n',
+      nodeValue: ' Stylus Studio meta-information - (c) 2004-2009. Progress Software Corporation. All rights reserved.\n' +
+        '\n' +
+        '<metaInformation>\n' +
+        '\t<scenarios>\n' +
+        '\t\t<scenario default="yes" name="Scenario1" userelativepaths="yes" externalpreview="no" url="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter.xml" htmlbaseurl="" outputurl="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter_Pavan.xml" processortype="saxon8"\n' +
+        '\t\t          useresolver="no" profilemode="0" profiledepth="" profilelength="" urlprofilexml="" commandline="" additionalpath="" additionalclasspath="" postprocessortype="none" postprocesscommandline="" postprocessadditionalpath=""\n' +
+        '\t\t          postprocessgeneratedext="" validateoutput="no" validator="internal" customvalidator="">\n' +
+        '\t\t\t<advancedProp name="sInitialMode" value=""/>\n' +
+        '\t\t\t<advancedProp name="schemaCache" value="||"/>\n' +
+        '\t\t\t<advancedProp name="bXsltOneIsOkay" value="true"/>\n' +
+        '\t\t\t<advancedProp name="bSchemaAware" value="false"/>\n' +
+        '\t\t\t<advancedProp name="bGenerateByteCode" value="false"/>\n' +
+        '\t\t\t<advancedProp name="bXml11" value="false"/>\n' +
+        '\t\t\t<advancedProp name="iValidation" value="0"/>\n' +
+        '\t\t\t<advancedProp name="bExtensions" value="true"/>\n' +
+        '\t\t\t<advancedProp name="iWhitespace" value="0"/>\n' +
+        '\t\t\t<advancedProp name="sInitialTemplate" value=""/>\n' +
+        '\t\t\t<advancedProp name="bTinyTree" value="true"/>\n' +
+        '\t\t\t<advancedProp name="xsltVersion" value="2.0"/>\n' +
+        '\t\t\t<advancedProp name="bWarnings" value="true"/>\n' +
+        '\t\t\t<advancedProp name="bUseDTD" value="false"/>\n' +
+        '\t\t\t<advancedProp name="iErrorHandling" value="fatal"/>\n' +
+        '\t\t</scenario>\n' +
+        '\t</scenarios>\n' +
+        '\t<MapperMetaTag>\n' +
+        '\t\t<MapperInfo srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="" destSchemaRoot="" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no">\n' +
+        '\t\t\t<SourceSchema srcSchemaPath="..\\..\\TestFiles\\AAAFlowFilter\\AAAFlowFilter.xml" srcSchemaRoot="AAAFlow" AssociatedInstance="" loaderFunction="document" loaderFunctionUsesURI="no"/>\n' +
+        '\t\t</MapperInfo>\n' +
+        '\t\t<MapperBlockPosition>\n' +
+        '\t\t\t<template match="/"></template>\n' +
+        '\t\t\t<template name="mappingFinancialInstrumentAADepositAndLoan"></template>\n' +
+        '\t\t</MapperBlockPosition>\n' +
+        '\t\t<TemplateContext></TemplateContext>\n' +
+        '\t\t<MapperFilter side="source"></MapperFilter>\n' +
+        '\t</MapperMetaTag>\n' +
+        '</metaInformation>\n',
+      length: 2162,
+      lineNumber: 42,
+      columnNumber: 18,
+      previousSibling: [Circular *3],
+      nextSibling: null,
+      parentNode: [Document]
+    },
+    parentNode: <ref *1> Document {
+      ownerDocument: [Circular *1],
+      implementation: {},
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [ProcessingInstruction],
+      lastChild: [Comment],
+      _inc: 106,
+      documentElement: [Circular *3]
+    },
+    lineNumber: 2,
+    columnNumber: 1,
+    firstChild: [Circular *2],
+    lastChild: Text {
+      ownerDocument: [Document],
+      data: '\n',
+      nodeValue: '\n',
+      length: 1,
+      parentNode: [Circular *3],
+      previousSibling: [Element],
+      nextSibling: null,
+      lineNumber: 41,
+      columnNumber: 17
+    }
+  },
+  previousSibling: null,
+  nextSibling: <ref *4> Comment {
+    ownerDocument: <ref *1> Document {
+      ownerDocument: [Circular *1],
+      implementation: {},
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [ProcessingInstruction],
+      lastChild: [Comment],
+      _inc: 106,
+      documentElement: [Element]
+    },
+    data: ' START of protected area  ',
+    nodeValue: ' START of protected area  ',
+    length: 26,
+    lineNumber: 7,
+    columnNumber: 2,
+    parentNode: <ref *3> Element {
+      _nsMap: [Object],
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'xsl:stylesheet',
+      tagName: 'xsl:stylesheet',
+      namespaceURI: 'http://www.w3.org/1999/XSL/Transform',
+      prefix: 'xsl',
+      localName: 'stylesheet',
+      previousSibling: [Text],
+      nextSibling: [Comment],
+      parentNode: [Document],
+      lineNumber: 2,
+      columnNumber: 1,
+      firstChild: [Circular *2],
+      lastChild: [Text]
+    },
+    previousSibling: [Circular *2],
+    nextSibling: Text {
+      ownerDocument: [Document],
+      data: '\n\t',
+      nodeValue: '\n\t',
+      length: 2,
+      parentNode: [Element],
+      previousSibling: [Circular *4],
+      nextSibling: [Comment],
+      lineNumber: 7,
+      columnNumber: 35
+    }
+  },
+  lineNumber: 6,
+  columnNumber: 236
+}
