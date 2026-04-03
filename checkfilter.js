@@ -11,28 +11,25 @@ const select = xpath.useNamespaces({
   "xsl": "http://www.w3.org/1999/XSL/Transform"
 })
 
+// namespaces
 var nodes = select("/xsl:stylesheet", doc);
 for (let i = 0; i < nodes[0].attributes.length; i++) {
   if (nodes[0].attributes[i].name.startsWith('xmlns'))
     console.log(nodes[0].attributes[i].name, nodes[0].attributes[i].value)
 }
 
-for (let i = 0; i < nodes[0].childNodes.length; i++) {
-  let child = nodes[0].childNodes[i]
-  if (child.nodeName != "#text" && child.nodeName != "#comment") {
-    console.log(child.nodeName)
-    var mode = select("@mode", child);
-    for (let j = 0; j < child.childNodes.length; j++) {
-      let child2 = child.childNodes[j]
-      if (child2.nodeName != "#text" && child2.nodeName != "#comment") {
-        console.log('  ', child2.nodeName, mode)
-      }
-    }
-
+//apply-templates
+var nodes = select("//xsl:apply-templates", doc);
+for (let i = 0; i < nodes.length; i++) {
+  for (let j = 0; j < nodes[i].attributes.length; j++) {
+    if (nodes[i].attributes[j].name.startsWith('mode'))
+      console.log(nodes[i].attributes[j].value)
   }
 }
 
-//console.log(nodes[0].childNodes[0])
+const s = new dom.XMLSerializer()
+const str = s.serializeToString(doc)
+//console.log(str)
 
 function getXmlFile(file) {
   return new Promise((resolve) => {
@@ -45,3 +42,20 @@ function getXmlFile(file) {
   })
 }
 
+/*
+for (let i = 0; i < nodes[0].childNodes.length; i++) {
+  let child = nodes[0].childNodes[i]
+  if (child.nodeName != "#text" && child.nodeName != "#comment") {
+    console.log(child.nodeName)
+    var mode = select("@mode", child);
+    for (let j = 0; j < child.childNodes.length; j++) {
+      let child2 = child.childNodes[j]
+      if (child2.nodeName != "#text" && child2.nodeName != "#comment") {
+        console.log('  ', child2.nodeName, mode)
+      }
+    }
+  }
+}
+
+
+*/
